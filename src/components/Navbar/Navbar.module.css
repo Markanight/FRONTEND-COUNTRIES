@@ -1,0 +1,45 @@
+.container{
+    margin-top: 0%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    align-items: center;
+    box-shadow: rgb(255, 255, 255);
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+    backdrop-filter: blur(14px);
+    color: rgb(0, 0, 0);
+    /* opacity: 0.9; */
+}
+
+.btn{
+    margin-left: 2%;
+    font-size: 1rem;
+    height: 50px;
+    border-radius: 10px; 
+    /* box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2); */
+    backdrop-filter: blur(14px);
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+}
+
+.btn1{
+    margin-right: 2%;
+    font-size: 1rem;
+    height: 50px;
+    border-radius: 10px; 
+    /* box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2); */
+    backdrop-filter: blur(14px);
+    color: rgb(252, 252, 252);
+    background-color: rgb(0, 0, 0);
+}
+
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.btn1:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}

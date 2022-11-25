@@ -1,0 +1,15 @@
+.img{
+ margin-top: 20%;
+ margin-left: 45%;
+ animation: frames .8s linear 0s infinite;
+}
+
+@keyframes frames {
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+}

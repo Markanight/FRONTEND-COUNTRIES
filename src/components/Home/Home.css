@@ -1,0 +1,24 @@
+.countriesGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 190px); 
+    gap: 70px;
+    margin-right: 10%;
+    margin-left: 10%;
+    justify-content: center;
+    list-style: none;
+    background-image: url(../../assets/background.webp);
+}
+
+.seanav{
+    margin-top: 25px;
+    /* justify-content: space-between; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* width: 100%; */
+    margin-right: 5px;
+
+}
+

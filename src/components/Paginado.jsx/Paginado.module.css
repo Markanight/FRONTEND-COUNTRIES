@@ -1,0 +1,27 @@
+.pageNumbers {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+}
+
+.numbers {
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+    backdrop-filter: blur(14px);
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 1.5rem;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.numbers:hover{
+    box-shadow: 0px 0px 10px rgb(5, 4, 65);
+    animation: glow;
+    
+}
+
+.paginado {
+    width: 100%;
+    margin-bottom: 40px;
+    
+}

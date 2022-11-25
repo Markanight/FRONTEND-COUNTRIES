@@ -1,0 +1,26 @@
+.filters {
+    margin-right: 50%;
+    position: absolute; 
+    display: flex;
+    /* justify-content: space-between; */
+    /* margin-top: 40px; */
+    /* margin-left: 33%; */
+    width: 450px;
+    height: 50px;
+    align-items: center;
+    /* background-color: rgb(255, 255, 255); */
+    
+    
+
+
+    
+}
+.filter {
+    height: 30px;
+    margin-right: 2%;
+    border-radius: 8px;
+    background-color: rgb(146, 167, 206);
+    color: rgb(0, 0, 0);
+    /* opacity: 0.6; */
+
+}
