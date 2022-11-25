@@ -13,7 +13,7 @@ export function getCountries(){
 }
 export function getCountryData(id){
     return async function(dispatch){
-        const json = await axios(URL + id)
+        const json = await axios(URL + 'countries' + id)
         return dispatch({
             type: 'STORE_COUNTRY_DETAIL',
             payload: json.data
