@@ -21,20 +21,14 @@ export function getCountryData(id){
     }
 }
 
-export function getNameCountry(name){
-    
+export function getNameCountry(name){   
     return async function(dispatch) {
-        try {
            var json = await axios.get(`https://backend-countries-production.up.railway.app/countries?name=${name}`)
             return dispatch({
                 type : 'GET_NAME_COUNTRY',
                 payload : json.data
             })  
-        } catch (error) {
-            console.log('Me llego este texto, error', error)
         }
-           
-    }
 }
 
 export function getAllActivities(){
