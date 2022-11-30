@@ -30,7 +30,7 @@ export default function SearchBar() {
 
   return (
     <form className={styles.container}>
-        <input onChange={handleChange} value={name} onSubmit={handleSubmit} className={styles.searchBar} type="text" placeholder='SEARCH...'/>
+        <input onChange={handleChange} value={name} onSubmit={handleSubmit} className={styles.searchBar} type="text" placeholder='search...'/>
         <button  onClick={handleSubmit} className={styles.btn}></button>
     </form>
   )
