@@ -15,8 +15,8 @@ function validate(input){
     else if(input.season === '') {
         errors.season = 'season must be completed'
     }
-    else if(input.duration === '') {
-        errors.duration = 'duration must be completed'
+    else if(Math.sign(input.duration) === -1) {
+        errors.duration = 'duration must be positive'
     }
     else if(input.countries.length === 0){
         errors.countries = 'select at least one country'
