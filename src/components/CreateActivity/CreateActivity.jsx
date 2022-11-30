@@ -15,8 +15,8 @@ function validate(input){
     else if(input.season === '') {
         errors.season = 'season must be completed'
     }
-    else if(Math.sign(input.duration) === -1) {
-        errors.duration = 'duration must be positive'
+    else if(input.duration === 0) {
+        errors.duration = 'duration must be completed'
     }
     else if(input.countries.length === 0){
         errors.countries = 'select at least one country'
@@ -139,7 +139,7 @@ export default function CreateActivity() {
             </div>
             <div>
                 <label>Duration: </label>
-                <input placeholder='activity duration (weeks)' className='inputs' type="text" value={input.duration} name='duration' onChange={handleChange} />
+                <input defaultValue={0} placeholder='activity duration (weeks)' className='inputs' type="text" value={input.duration} name='duration' onChange={handleChange} />
             </div>
             <div>
                 <label>Countries: </label>
