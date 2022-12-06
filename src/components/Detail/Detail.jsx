@@ -97,7 +97,7 @@ export default function Detail() {
                   return (
                     <div className='boxy' key={activity.id}>
                       <p>Name: {activity.name.charAt(0).toUpperCase() + activity.name.slice(1)}</p>
-                      <p>Difficulty: {activity.diffiulty}</p>
+                      <p>Difficulty: {activity.difficulty}</p>
                       <p>Season: {activity.season}</p>
                       <p>Duration: {activity.duration}</p>
                     </div>
